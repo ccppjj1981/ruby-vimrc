@@ -82,6 +82,8 @@ let g:ctrlp_cmd = 'CtrlP'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 map <c-o> :CtrlPBuffer<CR>
+" supertab
+Plugin 'SuperTab'
 
 filetype plugin indent on     " required! 
 syntax on
@@ -96,3 +98,8 @@ set iskeyword+=-
 
 " vim 7.4 backspace fix
 set backspace=indent,eol,start
+
+nnoremap cw ciw 
+nnoremap dw diw 
+
+inoremap jk <esc>
