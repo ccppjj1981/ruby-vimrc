@@ -66,7 +66,7 @@ map <silent><F7>  <leader>ig
 
 " file tree like something called IDE
 Plugin 'scrooloose/nerdtree'
-map <silent><F8> :NERDTree<CR>
+noremap tw :NERDTree<cr>
 " coffeescript
 Plugin 'kchmck/vim-coffee-script'
 " basic dependence
