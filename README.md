@@ -18,7 +18,7 @@ A quick vimrc for Ruby on Rails programming
 ```bash
 # 安装 Vundle( vim 插件管理器 )
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-$ git clone https://github.com/windy/ruby-vimrc.git
+$ git clone https://github.com/easonhan007/ruby-vimrc.git
 
 $ cp ruby-vimrc/vimrc ~/.vimrc
 
