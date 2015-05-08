@@ -20,7 +20,8 @@ A quick vimrc for Ruby on Rails programming
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ git clone https://github.com/easonhan007/ruby-vimrc.git
 
-$ cp ruby-vimrc/vimrc ~/.vimrc
+$ cp ruby-vimrc/vimrc ~/.vimrc  # or ln -s paht/to/ruby-vim/vimrc ~/.vimrc
+$ cp ruby-vimrc/sexy-railscasts-256.vim ~/.vimrc/colors
 
 $ vim
   # 输入以下指令
@@ -43,6 +44,9 @@ $ vim
 
 
 ## 更新记录
+
+### 2015.05.08
+1. 修改colorscheme
 
 ### 2014.10.17
 1. 更新了 Vundle 至最新版

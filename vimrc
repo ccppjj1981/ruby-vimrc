@@ -84,6 +84,8 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 map <c-o> :CtrlPBuffer<CR>
 " supertab
 Plugin 'SuperTab'
+" colorscheme https://github.com/junegunn/seoul256.vim
+Plugin 'junegunn/seoul256.vim'
 
 filetype plugin indent on     " required! 
 syntax on
@@ -103,3 +105,14 @@ nnoremap cw ciw
 nnoremap dw diw 
 
 inoremap jk <esc>
+
+set t_Co=256
+" change bakground color
+"let g:seoul256_background = 233
+" default: dark
+"colo seoul256
+colo sexy-railscasts-256
+
+" switch
+" set background=dark
+" set background=light
